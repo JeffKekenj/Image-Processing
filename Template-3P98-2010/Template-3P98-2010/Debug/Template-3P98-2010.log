@@ -1,0 +1,31 @@
+﻿Build started 11/10/2013 11:57:49 AM.
+     1>Project "Z:\COSC3P98\Assign1\Part1\Template-3P98-2010\Template-3P98-2010\Template-3P98-2010.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IGL /IFreeImage /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt Source.c
+         Source.c
+     1>z:\cosc3p98\assign1\part1\template-3p98-2010\template-3p98-2010\source.c(205): warning C4244: '=' : conversion from 'double' to 'GLubyte', possible loss of data
+     1>z:\cosc3p98\assign1\part1\template-3p98-2010\template-3p98-2010\source.c(206): warning C4244: '=' : conversion from 'double' to 'GLubyte', possible loss of data
+     1>z:\cosc3p98\assign1\part1\template-3p98-2010\template-3p98-2010\source.c(207): warning C4244: '=' : conversion from 'double' to 'GLubyte', possible loss of data
+     1>z:\cosc3p98\assign1\part1\template-3p98-2010\template-3p98-2010\source.c(335): warning C4244: '+=' : conversion from 'double' to 'GLubyte', possible loss of data
+     1>z:\cosc3p98\assign1\part1\template-3p98-2010\template-3p98-2010\source.c(345): warning C4244: '+=' : conversion from 'double' to 'GLubyte', possible loss of data
+     1>z:\cosc3p98\assign1\part1\template-3p98-2010\template-3p98-2010\source.c(355): warning C4244: '+=' : conversion from 'double' to 'GLubyte', possible loss of data
+     1>z:\cosc3p98\assign1\part1\template-3p98-2010\template-3p98-2010\source.c(636): warning C4244: '=' : conversion from 'double' to 'GLubyte', possible loss of data
+     1>z:\cosc3p98\assign1\part1\template-3p98-2010\template-3p98-2010\source.c(637): warning C4244: '=' : conversion from 'double' to 'GLubyte', possible loss of data
+     1>z:\cosc3p98\assign1\part1\template-3p98-2010\template-3p98-2010\source.c(638): warning C4244: '=' : conversion from 'double' to 'GLubyte', possible loss of data
+     1>z:\cosc3p98\assign1\part1\template-3p98-2010\template-3p98-2010\source.c(650): warning C4101: 'j' : unreferenced local variable
+     1>z:\cosc3p98\assign1\part1\template-3p98-2010\template-3p98-2010\source.c(839): warning C4020: 'Quantize' : too many actual parameters
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\COSC3P98\Assign1\Part1\Template-3P98-2010\Debug\Template-3P98-2010.exe" /INCREMENTAL /NOLOGO /LIBPATH:GL /LIBPATH:FreeImage opengl32.lib freeglut.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\COSC3P98\Assign1\Part1\Template-3P98-2010\Debug\Template-3P98-2010.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\COSC3P98\Assign1\Part1\Template-3P98-2010\Debug\Template-3P98-2010.lib" /MACHINE:X86 "Debug\Template-3P98-2010.res"
+         Debug\Source.obj
+         Template-3P98-2010.vcxproj -> Z:\COSC3P98\Assign1\Part1\Template-3P98-2010\Debug\Template-3P98-2010.exe
+       PostBuildEvent:
+         copy "Z:\COSC3P98\Assign1\Part1\Template-3P98-2010\Template-3P98-2010\GL\freeglut.dll" "Z:\COSC3P98\Assign1\Part1\Template-3P98-2010\Debug\"
+         copy "Z:\COSC3P98\Assign1\Part1\Template-3P98-2010\Template-3P98-2010\FreeImage\freeimaged.dll" "Z:\COSC3P98\Assign1\Part1\Template-3P98-2010\Debug\"
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "Z:\COSC3P98\Assign1\Part1\Template-3P98-2010\Template-3P98-2010\Template-3P98-2010.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.68
